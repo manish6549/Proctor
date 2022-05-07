@@ -1,0 +1,101 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #131415;
+    overflow-x: hidden;
+    padding-bottom: 2rem;
+    z-index: 3;
+}
+
+#navbar {
+    z-index: 2;
+}
+
+h1 {
+    font-size: xx-large;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.id-number {
+    margin-top: 8px;
+    display: inline-block;
+    position: absolute;
+    top: 34px;
+    left: 26px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: rgb(255 255 255 / 50%);
+}
+
+.header-name {
+    display: inline-block;
+    position: relative;
+    left: 204px;
+    top: 92px;
+}
+
+.accordion {
+    position: relative;
+    top: 106px;
+    left: 196px;
+    width: 80%;
+    margin: 8px;
+    max-width: 956px;
+    z-index: 1;
+}
+
+.accordion-item {
+    background-color: #232527;
+    border: none;
+    margin: 16px auto;
+}
+
+.accordion-button:hover, 
+.accordion-button:focus {
+    border-color: none; 
+    box-shadow: none;
+    outline: none;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: #232527;
+    box-shadow: none;
+}
+
+.accordion-button, 
+.accordion-button:not(.collapsed) {
+    display: grid;
+    color: #ffffff;
+    background-color: #232527;
+    padding: 0px 26px;
+    height: 78px;
+    align-content: center;
+    justify-items: start;
+}
+
+.accordion-button:not(.collapsed)::after,
+.accordion-button::after {
+    background-image: url(../img/Vector-5.png);
+    position: relative;
+    bottom: 5px;
+}
+
+.demo-exam:hover {
+    color: #ffffff;
+}
+
+.demo-exam {
+    font-size: 16px;
+    font-weight: 100;
+    color: #ffffff;
+    text-decoration: underline;
+    position: fixed;
+    bottom: 22px;
+    margin-left: 36px;
+}

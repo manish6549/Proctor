@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #131415;
+}
+
+.center-intro {
+  position: absolute;
+  width: 80%;
+  max-width: 1000px;
+  height: 400px;
+  left: 13%;
+  top: 25%;
+  background: #232527;
+  box-shadow: 7px 8px 52px rgba(0, 0, 0, 0.35);
+}
+
+.body-logo {
+  position: relative;
+  width: 128px;
+  top: 15%;
+  left: 10%;
+}
+
+.intro {
+  position: absolute;
+  left: 10%;
+  top: 36%;
+  font-size: 24px;
+  width: 300px;
+  color: #FFFFFF;
+}
+
+.intro-bottom {
+  position: absolute;
+  left: 10%;
+  top: 45%;
+  font-size: 24px;
+  width: 400px;
+  color: #FFFFFF;
+}
+
+.submit {
+  font-weight: 700;
+  word-spacing: 4px;
+  margin: 0 auto;
+  padding: 4px 8px 4px 8px;
+  width: 100px;
+  height: 32px;
+  position: absolute;
+  left: 10%;
+  top: 80%;
+  background: #FFFFFF;
+  border: unset;
+}
+
+.arrow {
+  height: 10px;
+}

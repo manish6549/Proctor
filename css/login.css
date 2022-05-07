@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #131415;
+}
+
+h6 {
+  position: relative;
+  top: 130px;
+  max-width: 162px;
+  font-weight: 100;
+  text-decoration: underline;
+}
+
+h6 a:visited {
+  color: rgb(255 255 255);
+}
+
+.log-in {
+  display: flex;
+  position: absolute;
+  width: 80%;
+  max-width: 400px;
+  height: 500px;
+  left: 37%;
+  top: 17%;
+  background: rgb(35, 37, 39);
+  box-shadow: rgb(0 0 0 / 35%) 7px 8px 52px;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.login-logo {
+  position: relative;
+  top: 65px;
+}
+
+.box {
+  position: relative;
+  top: 140px;
+  height: 28px;
+  min-width: 255px;
+  font-size: 14px;
+  background-color: transparent;
+  border: none;
+  resize: none;
+  outline: none;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.pass-box {
+  margin-top: 25px;
+}
+
+hr {
+  position: relative;
+  height: 2px;
+  min-width: 265px;
+  border-radius: 0px;
+  top: 132px;
+}
+
+.submit-login {
+  position: relative;
+  top: 142px;
+  min-width: 140px;
+  height: 50px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0 auto;
+  background: #FFFFFF;
+  border: unset;
+}

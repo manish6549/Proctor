@@ -1,0 +1,121 @@
+
+<div class="logo">
+  <h2 class="nav-title">Proctor Vision</h2>
+</div>
+<div class="inner-form">
+  <div class="input-field">
+    <input class="img-search" type="image" src="img/search.png" alt="" />
+    <input id="search" class="input-search" type="text" placeholder="Search" value="">
+  </div>
+</div>
+<div class="end-nav">
+  <input class="img-vector" type="image" src="img/vector.png" alt="" />
+  <input class="img-rectangle" type="image" src="img/Rectangle.png" alt="" />
+  <input class="img-cross" type="image" src="img/cross.png" alt="" />
+</div>
+
+<style>
+  #navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px 10px 40px;
+    position: fixed;
+    width: 1366px;
+    height: 62px;
+    left: 0;
+    top: 0;
+    background: #232527;
+    box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.5);
+  }
+
+  .nav-title {
+    position: absolute;
+    width: 125px;
+    height: 27px;
+    left: -236px;
+    top: 17.5px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 269px;
+  }
+
+  .inner-form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 18px;
+    position: absolute;
+    width: 571px;
+    height: 42px;
+    left: 160px;
+    top: 10px;
+    background: #131415;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 269px;
+  }
+
+  .img-search {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top: 13px;
+  }
+
+  .input-search {
+    position: relative;
+    width: 509px;
+    height: 18px;
+    left: 16px;
+    top: -1px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    border: none;
+    background-color: rgb(0 0 0 / 0%);
+    resize: none;
+    outline: none;
+    color: rgba(255, 255, 255, 0.5);
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+    margin: 0px 8px;
+  }
+
+  .end-nav {
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    position: absolute;
+    right: 27px;
+  }
+
+  .img-vector {
+    margin-top: 14px;
+    width: 14px;
+    height: 3px;
+  }
+
+  .img-rectangle {
+    margin-top: 2px;
+    width: 14px;
+    height: 14px;
+  }
+
+  .img-cross {
+    width: 18px;
+    height: 18px;
+  }
+</style>

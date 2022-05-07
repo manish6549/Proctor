@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #131415;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+h6 {
+  position: relative;
+  font-size: 13px;
+  color: rgb(255 255 255);
+  font-weight: 100;
+  width: 240px;
+  text-align: center;
+  top: 72px;
+}
+
+.onboard {
+  display: flex;
+  position: absolute;
+  width: 330px;
+  height: 425px;
+  left: 40%;
+  top: 90px;
+  background: rgb(35, 37, 39);
+  box-shadow: rgb(0 0 0 / 35%) 7px 8px 52px;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  overflow: hidden;
+}
+
+.onboard-logo {
+  width: 205px;
+  height: 205px;
+  position: relative;
+  top: 38px;
+}
+
+.indicators {
+  position: relative;
+  top: 506px;
+  left: 2%;
+}
+
+.next {
+  width: 112px;
+  right: 110px;
+  top: 278px;
+}
+
+span {
+  color: #FFFFFF;
+  opacity: 1.5;
+}
+
+.next {
+  opacity: 1;
+}
+
+
+.indicators [data-bs-target] {
+  Width: 5px;
+  Height: 5px;
+  border-radius: 50%;
+}
+
+.indicators .active {
+  Width: 14px;
+  Height: 5px;
+  border-radius: 43%;
+}
+
+.submit {
+  font-size: 12px;
+}
+
+.arrow {
+  height: 10px;
+}
+
+.skip {
+  display: inline-block;
+  position: absolute;
+  left: 51%;
+  top: 544px;
+  color: rgb(255 255 255 / 50%);
+  font-size: 11px;
+}
+
+a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: inherit;
+}
